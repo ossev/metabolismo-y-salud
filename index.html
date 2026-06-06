@@ -3,32 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guía Práctica de Optimización Metabólica</title>
+    <title>Energía Sin Bajonazos - Guía Práctica de Optimización Metabólica</title>
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
+            /* Tamaño de letra base más grande para mejorar la legibilidad en adultos mayores */
+            font-size: 1.25rem; /* 20px base en lugar de los 16px tradicionales */
         }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased selection:bg-teal-500 selection:text-white">
+<body class="bg-slate-50 text-slate-900 antialiased selection:bg-teal-600 selection:text-white">
 
-    <header class="relative bg-gradient-to-br from-teal-900 via-teal-950 to-emerald-950 text-white overflow-hidden">
+    <!-- Header / Hero Section -->
+    <header class="relative bg-gradient-to-br from-teal-950 via-teal-900 to-emerald-950 text-white overflow-hidden">
         <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-teal-700/20 via-transparent to-transparent"></div>
-        <div class="max-w-5xl mx-auto px-6 pt-16 pb-20 relative z-10 text-center md:text-left">
-            <span class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-6">
-                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Guía de Salud y Rendimiento Diario
+        <div class="max-w-5xl mx-auto px-6 pt-16 pb-24 relative z-10 text-center md:text-left">
+            <span class="inline-flex items-center gap-2 py-2 px-4 rounded-full text-sm font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-6">
+                <span class="w-3 h-3 rounded-full bg-emerald-400 animate-pulse"></span> Guía de Salud con Letra Grande
             </span>
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight max-w-3xl leading-tight">
                 Energía Estable <br class="hidden md:inline"><span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300">Sin Bajonazos</span>
             </h1>
-            <p class="mt-6 text-lg md:text-xl text-teal-100/80 max-w-2xl font-light leading-relaxed">
-                Aprende cómo funciona la glucosa y la insulina con ejemplos reales de nuestro día a día, y descubre cómo optimizar tu cuerpo sin aguantar hambre.
+            <p class="mt-6 text-xl md:text-2xl text-teal-100/90 max-w-2xl font-normal leading-relaxed">
+                Aprende cómo funciona el azúcar en el cuerpo con ejemplos sencillos de nuestra cocina tradicional. ¡Mejora tu salud sin aguantar hambre!
             </p>
         </div>
+        <!-- Wave Divider -->
         <div class="absolute bottom-0 left-0 right-0 w-full overflow-hidden leading-[0] transform rotate-180">
             <svg class="relative block w-[calc(100%+1.3px)] h-[40px] text-slate-50" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" preserveAspectRatio="none">
                 <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V120H1200V56.44Z" fill="currentColor"></path>
@@ -36,193 +42,208 @@
         </div>
     </header>
 
+    <!-- Main Content Container -->
     <main class="max-w-5xl mx-auto px-6 py-12 space-y-16">
 
-        <section id="mecanismo" class="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-slate-100">
+        <!-- Sección 1: El Mecanismo de la Moto -->
+        <section id="mecanismo" class="bg-white rounded-3xl p-8 md:p-12 shadow-md border border-slate-100">
             <div class="grid md:grid-cols-12 gap-8 items-center">
-                <div class="md:col-span-7 space-y-4">
-                    <h2 class="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight flex items-center gap-3">
-                        <span class="text-teal-600 font-mono text-xl bg-teal-50 px-3 py-1 rounded-xl">01</span>
-                        El Cuerpo Humano Funciona Como una Moto
+                <div class="md:col-span-7 space-y-6">
+                    <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight flex items-center gap-3">
+                        <span class="text-teal-700 font-mono text-2xl bg-teal-50 px-4 py-1.5 rounded-xl">01</span>
+                        El Cuerpo Funciona Como una Moto
                     </h2>
-                    <p class="text-slate-600 leading-relaxed pt-2">
-                        Para que una moto ruede por el pueblo, necesita combustible limpio y un motor que lo regule. Tu organismo opera exactamente bajo la misma lógica biológica:
+                    <p class="text-slate-700 leading-relaxed text-lg md:text-xl">
+                        Para que una moto ruede bien, necesita gasolina limpia y un motor que la controle. Tu cuerpo funciona igualito:
                     </p>
-                    <div class="space-y-4 pt-2">
+                    <div class="space-y-5 pt-2">
                         <div class="flex items-start gap-4">
-                            <div class="p-2 bg-amber-50 text-amber-600 rounded-lg mt-1 font-semibold text-sm">⛽</div>
+                            <div class="p-3 bg-amber-50 text-xl rounded-xl mt-1">⛽</div>
                             <div>
-                                <h4 class="font-semibold text-slate-900">La Glucosa (El Combustible)</h4>
-                                <p class="text-sm text-slate-500">Es el azúcar que entra a la sangre a través de los alimentos. Es la fuente de energía rápida para tus músculos y cerebro.</p>
+                                <h4 class="font-bold text-slate-900 text-xl">La Glucosa (El Combustible)</h4>
+                                <p class="text-base md:text-lg text-slate-600">Es el azúcar que se saca de las comidas. Da energía rápida a los músculos y al cerebro.</p>
                             </div>
                         </div>
                         <div class="flex items-start gap-4">
-                            <div class="p-2 bg-indigo-50 text-indigo-600 rounded-lg mt-1 font-semibold text-sm">📟</div>
+                            <div class="p-3 bg-indigo-50 text-xl rounded-xl mt-1">📟</div>
                             <div>
-                                <h4 class="font-semibold text-slate-900">El Páncreas (El Medidor)</h4>
-                                <p class="text-sm text-slate-500">Un órgano que actúa como sensor inteligente. Monitorea segundo a segundo cuánta azúcar hay circulando en la sangre.</p>
+                                <h4 class="font-bold text-slate-900 text-xl">El Páncreas (El Medidor)</h4>
+                                <p class="text-base md:text-lg text-slate-600">Es el órgano que revisa todo el tiempo cuánta azúcar hay flotando en la sangre.</p>
                             </div>
                         </div>
                         <div class="flex items-start gap-4">
-                            <div class="p-2 bg-emerald-50 text-emerald-600 rounded-lg mt-1 font-semibold text-sm">🔑</div>
+                            <div class="p-3 bg-emerald-50 text-xl rounded-xl mt-1">🔑</div>
                             <div>
-                                <h4 class="font-semibold text-slate-900">La Insulina (La Llave de Paso)</h4>
-                                <p class="text-sm text-slate-500">Hormona encargada de abrir la compuerta de las células. Sin ella, la glucosa se queda atrapada en la sangre y no se transforma en energía usable.</p>
+                                <h4 class="font-bold text-slate-900 text-xl">La Insulina (La Llave de Paso)</h4>
+                                <p class="text-base md:text-lg text-slate-600">La hormona que abre las células. Si ella no abre la puerta, el azúcar se queda atrapada en la sangre y causa enfermedades.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="md:col-span-5 bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-6 border border-slate-200/60 self-stretch flex flex-col justify-center">
-                    <h3 class="text-emerald-800 font-bold text-lg mb-2">El Circuito Ideal</h3>
-                    <p class="text-sm text-slate-600 leading-relaxed mb-4">
-                        Cuando comes balanceado, la glucosa sube de forma <strong>suave y progresiva</strong>. El páncreas libera la insulina justa, tus células se llenan de energía y mantienes la mente clara, enfocada y sin fatiga durante horas.
+                <div class="md:col-span-5 bg-gradient-to-br from-teal-50/50 to-emerald-50/50 rounded-2xl p-8 border border-teal-100 self-stretch flex flex-col justify-center space-y-4">
+                    <h3 class="text-teal-900 font-extrabold text-2xl">El Estado Ideal</h3>
+                    <p class="text-base md:text-lg text-slate-700 leading-relaxed">
+                        Cuando comes equilibrado, el azúcar sube de forma <strong>suave y bajita</strong>. El cuerpo usa la energía poco a poco y tú te mantienes despierto, con fuerza y sin sueño después de comer.
                     </p>
-                    <div class="h-2 w-full bg-slate-200 rounded-full overflow-hidden">
+                    <div class="h-3 w-full bg-slate-200 rounded-full overflow-hidden">
                         <div class="h-full bg-gradient-to-r from-emerald-500 to-teal-500 w-[60%] rounded-full"></div>
                     </div>
-                    <span class="text-[11px] text-slate-400 mt-2 block text-right">Curva metabólica óptima y controlada</span>
+                    <span class="text-xs text-slate-500 font-semibold block text-right">Energía constante sin picos</span>
                 </div>
             </div>
         </section>
 
-        <section id="picos" class="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-slate-100 space-y-8">
-            <div class="max-w-3xl">
-                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight flex items-center gap-3">
-                    <span class="text-rose-600 font-mono text-xl bg-rose-50 px-3 py-1 rounded-xl">02</span>
-                    El Peligro de la "Montaña Rusa" Energética
+        <!-- Sección 2: La Montaña Rusa -->
+        <section id="picos" class="bg-white rounded-3xl p-8 md:p-12 shadow-md border border-slate-100 space-y-8">
+            <div class="max-w-3xl space-y-4">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight flex items-center gap-3">
+                    <span class="text-rose-700 font-mono text-2xl bg-rose-50 px-4 py-1.5 rounded-xl">02</span>
+                    El Peligro del "Bajonazo" de Energía
                 </h2>
-                <p class="text-slate-600 leading-relaxed mt-4">
-                    Cuando consumimos azúcares refinados, harinas procesadas o jugos comerciales con el estómago vacío, el alimento pasa libre y sin freno al torrente sanguíneo, desatando una crisis en cadena:
+                <p class="text-slate-700 leading-relaxed text-lg md:text-xl">
+                    Si desayunamos o almorzamos con harinas solas o azúcares, todo pasa directo y muy rápido a la sangre, creando una crisis:
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/60 relative">
-                    <span class="text-xs font-bold text-slate-400 block mb-1">PASO 01</span>
-                    <h4 class="font-bold text-slate-900 text-base mb-2">Abuso de Harinas/Azúcar</h4>
-                    <p class="text-xs text-slate-500">Desayunar con exceso de carbohidratos simples sin acompañamiento fibroso ni proteico.</p>
+            <!-- Flujograma Responsivo -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 shadow-sm">
+                    <span class="text-xs font-bold text-slate-500 block mb-1">PASO 1</span>
+                    <h4 class="font-bold text-slate-900 text-lg mb-2">Comida Sola o Dulce</h4>
+                    <p class="text-sm text-slate-600">Comer arroz, yuca o jugos dulces con el estómago vacío.</p>
                 </div>
-                <div class="p-5 rounded-2xl bg-rose-50/50 border border-rose-100 relative">
-                    <span class="text-xs font-bold text-rose-500 block mb-1">PASO 02</span>
-                    <h4 class="font-bold text-rose-950 text-base mb-2 text-rose-900">Pico de Glucosa</h4>
-                    <p class="text-xs text-rose-700/80">El azúcar en la sangre se dispara verticalmente a niveles de pánico biológico.</p>
+                <div class="p-6 rounded-2xl bg-rose-50 border border-rose-200 shadow-sm">
+                    <span class="text-xs font-bold text-rose-600 block mb-1">PASO 2</span>
+                    <h4 class="font-bold text-rose-950 text-lg mb-2">Sube el Azúcar</h4>
+                    <p class="text-sm text-rose-800">El azúcar se dispara a niveles muy altos y peligrosos.</p>
                 </div>
-                <div class="p-5 rounded-2xl bg-amber-50/60 border border-amber-100 relative">
-                    <span class="text-xs font-bold text-amber-600 block mb-1">PASO 03</span>
-                    <h4 class="font-bold text-amber-950 text-base mb-2 text-amber-900">Inyección Masiva de Insulina</h4>
-                    <p class="text-xs text-amber-700/80">El páncreas reacciona hiperproduciendo insulina para forzar la bajada del azúcar.</p>
+                <div class="p-6 rounded-2xl bg-amber-50 border border-amber-200 shadow-sm">
+                    <span class="text-xs font-bold text-amber-700 block mb-1">PASO 3</span>
+                    <h4 class="font-bold text-amber-950 text-lg mb-2">Mucha Insulina</h4>
+                    <p class="text-sm text-amber-800">El cuerpo se asusta y suelta un viaje grandísimo de insulina.</p>
                 </div>
-                <div class="p-5 rounded-2xl bg-indigo-50/60 border border-indigo-100 relative">
-                    <span class="text-xs font-bold text-indigo-600 block mb-1">PASO 04</span>
-                    <h4 class="font-bold text-indigo-950 text-base mb-2 text-indigo-900">El "Crash" o Bajonazo</h4>
-                    <p class="text-xs text-indigo-700/80">La glucosa cae por debajo de la línea normal. Sientes sueño pesado, neblina y ansiedad por más dulce.</p>
+                <div class="p-6 rounded-2xl bg-indigo-50 border border-indigo-200 shadow-sm">
+                    <span class="text-xs font-bold text-indigo-600 block mb-1">PASO 4</span>
+                    <h4 class="font-bold text-indigo-950 text-lg mb-2">El "Crash" o Sueño</h4>
+                    <p class="text-sm text-indigo-800">El azúcar cae de golpe. Sientes cansancio, pesadez en la cabeza y ganas de comer más dulce.</p>
                 </div>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-6 pt-4 border-t border-slate-100">
+            <!-- Consecuencias a largo plazo -->
+            <div class="grid md:grid-cols-3 gap-8 pt-6 border-t border-slate-100">
                 <div class="space-y-2">
-                    <h4 class="font-semibold text-slate-900 flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-rose-500"></span> Resistencia a la Insulina
+                    <h4 class="font-bold text-slate-900 text-xl flex items-center gap-2">
+                        <span class="w-3 h-3 rounded-full bg-rose-600"></span> Desgaste del Cuerpo
                     </h4>
-                    <p class="text-xs text-slate-500 leading-relaxed">Saturar las células diariamente hace que estas se vuelvan sordas a la hormona, obligando al páncreas a trabajar al límite, antesala directa de la diabetes tipo 2.</p>
+                    <p class="text-base text-slate-600 leading-relaxed">Hacer esto todos los días cansa al páncreas y vuelve "sordas" a las células. Es el camino directo a la diabetes tipo 2.</p>
                 </div>
                 <div class="space-y-2">
-                    <h4 class="font-semibold text-slate-900 flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-rose-500"></span> Bloqueo de la Grasa
+                    <h4 class="font-bold text-slate-900 text-xl flex items-center gap-2">
+                        <span class="w-3 h-3 rounded-full bg-rose-600"></span> Grasa Atrapada
                     </h4>
-                    <p class="text-xs text-slate-500 leading-relaxed">La insulina es una hormona de almacenamiento. Mientras esté crónicamente alta, el cuerpo bloquea por completo la capacidad de quemar y oxidar grasa corporal.</p>
+                    <p class="text-base text-slate-600 leading-relaxed">Con la insulina alta, el cuerpo tranca la puerta para quemar grasa. Todo lo que comes se guarda como gordura en la barriga.</p>
                 </div>
                 <div class="space-y-2">
-                    <h4 class="font-semibold text-slate-900 flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-rose-500"></span> Inflamación Sistémica
+                    <h4 class="font-bold text-slate-900 text-xl flex items-center gap-2">
+                        <span class="w-3 h-3 rounded-full bg-rose-600"></span> Inflamación Interna
                     </h4>
-                    <p class="text-xs text-slate-500 leading-relaxed">Los picos severos dañan el endotelio de las venas y arterias acelerando el envejecimiento celular y elevando los riesgos cardiovasculares.</p>
+                    <p class="text-base text-slate-600 leading-relaxed">Los picos bruscos de azúcar dañan las venas y las arterias, afectando la circulación y la presión.</p>
                 </div>
             </div>
         </section>
 
-        <section id="alimentos" class="grid md:grid-cols-2 gap-8">
-            <div class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 space-y-6">
-                <div class="border-b border-slate-100 pb-4">
-                    <span class="text-xs font-bold text-rose-500 uppercase tracking-widest bg-rose-50 px-2.5 py-1 rounded-md">Consumo Moderado / Evitar Solos</span>
-                    <h3 class="text-xl font-bold text-slate-900 mt-2">Disparadores Rápidos de Azúcar</h3>
+        <!-- Sección 3: Alimentos Clasificados -->
+        <section id="alimentos" class="grid md:grid-cols-2 gap-8 text-lg">
+            <!-- Lista Roja -->
+            <div class="bg-white rounded-3xl p-8 shadow-md border border-slate-100 space-y-6">
+                <div class="border-b border-slate-200 pb-4">
+                    <span class="text-xs font-bold text-rose-700 uppercase tracking-widest bg-rose-100 px-3 py-1 rounded-md">Comer Menos o Acompañados</span>
+                    <h3 class="text-2xl font-bold text-slate-900 mt-2">Evitar Comer Solos (Suben el Azúcar)</h3>
                 </div>
-                <ul class="space-y-3.5 text-sm text-slate-600">
-                    <li class="flex items-center gap-3"><span class="text-rose-500">✕</span> <strong>Montañas de Arroz Blanco:</strong> Almidón puro sin fibra.</li>
-                    <li class="flex items-center gap-3"><span class="text-rose-500">✕</span> <strong>Bastimentos Solos:</strong> Yuca, ñame o plátano maduro frito en exceso.</li>
-                    <li class="flex items-center gap-3"><span class="text-rose-500">✕</span> <strong>Panadería y Dulces:</strong> Pan blanco, galletas de soda, pastelitos o pan de bono.</li>
-                    <li class="flex items-center gap-3"><span class="text-rose-500">✕</span> <strong>Bebidas Azucaradas:</strong> Gaseosas, jugos de caja o jugos naturales hiperendulzados.</li>
+                <ul class="space-y-4 text-slate-700">
+                    <li class="flex items-start gap-3"><span class="text-rose-600 font-bold text-xl">✕</span> <span><strong>Montañas de Arroz Blanco:</strong> Almidón puro que se absorbe muy rápido.</span></li>
+                    <li class="flex items-start gap-3"><span class="text-rose-600 font-bold text-xl">✕</span> <span><strong>Bastimentos Solos:</strong> Plátano maduro frito, yuca o ñame en exceso y sin proteína.</span></li>
+                    <li class="flex items-start gap-3"><span class="text-rose-600 font-bold text-xl">✕</span> <span><strong>Panadería Industrial:</strong> Pan blanco, galletas de soda, pan de bono o pastelitos de harina.</span></li>
+                    <li class="flex items-start gap-3"><span class="text-rose-600 font-bold text-xl">✕</span> <span><strong>Bebidas Dulces:</strong> Gaseosas, jugos de caja o jugos de fruta colados llenos de azúcar refinada.</span></li>
                 </ul>
             </div>
 
-            <div class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 space-y-6">
-                <div class="border-b border-slate-100 pb-4">
-                    <span class="text-xs font-bold text-emerald-600 uppercase tracking-widest bg-emerald-50 px-2.5 py-1 rounded-md">Tus Grandes Aliados</span>
-                    <h3 class="text-xl font-bold text-slate-900 mt-2">Energía Limpia y de Larga Duración</h3>
+            <!-- Lista Verde -->
+            <div class="bg-white rounded-3xl p-8 shadow-md border border-slate-100 space-y-6">
+                <div class="border-b border-slate-200 pb-4">
+                    <span class="text-xs font-bold text-emerald-700 uppercase tracking-widest bg-emerald-100 px-3 py-1 rounded-md">Tus Grandes Aliados</span>
+                    <h3 class="text-2xl font-bold text-slate-900 mt-2">Energía Limpia y Fibra Protectora</h3>
                 </div>
-                <ul class="space-y-3.5 text-sm text-slate-600">
-                    <li class="flex items-center gap-3"><span class="text-emerald-500 font-bold">✓</span> <strong>Proteínas Locales:</strong> Pescado de río (bocachico, bagre), res, pollo y huevos.</li>
-                    <li class="flex items-center gap-3"><span class="text-emerald-500 font-bold">✓</span> <strong>Queso Costeño y Suero:</strong> Aportan grasa y proteína de alta densidad estructural.</li>
-                    <li class="flex items-center gap-3"><span class="text-emerald-500 font-bold">✓</span> <strong>Verduras de la Región:</strong> Berenjena, tomate, habichuela, cebolla y pepino.</li>
-                    <li class="flex items-center gap-3"><span class="text-emerald-500 font-bold">✓</span> <strong>Grasas Saludables:</strong> Aguacate maduro entero y aceites estables.</li>
+                <ul class="space-y-4 text-slate-700">
+                    <li class="flex items-start gap-3"><span class="text-emerald-600 font-bold text-xl">✓</span> <span><strong>Proteínas de la Región:</strong> Pescado (bocachico, bagre), carne de res, pollo, cerdo y huevos.</span></li>
+                    <li class="flex items-start gap-3"><span class="text-emerald-600 font-bold text-xl">✓</span> <span><strong>Suero y Queso Costeño:</strong> Grasas y proteínas excelentes que frenan los picos de azúcar.</span></li>
+                    <li class="flex items-start gap-3"><span class="text-emerald-600 font-bold text-xl">✓</span> <span><strong>Frutos Secos y Coco:</strong> El coco (fresco o rallado) y las almendras o maní aportan grasas espectaculares que no suben el azúcar nada.</span></li>
+                    <li class="flex items-start gap-3"><span class="text-emerald-600 font-bold text-xl">✓</span> <span><strong>Verduras y Frutas con Fibra:</strong> Berenjena, habichuela, espinaca, tomate, pepino; y frutas enteras (guayaba, naranja masticada, mango biche) ¡nunca licuadas!</span></li>
                 </ul>
             </div>
         </section>
 
-        <section id="estrategias-avanzadas" class="grid md:grid-cols-2 gap-8">
-            <div class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 space-y-4">
-                <div class="w-12 h-12 rounded-2xl bg-amber-50 text-amber-700 flex items-center justify-center font-bold text-lg">☕</div>
-                <h3 class="text-xl font-bold text-slate-900">El Café Estratégico: Sin Azúcar y con Canela</h3>
-                <p class="text-sm text-slate-600 leading-relaxed">
-                    Tomar café cargado de azúcar blanca o panela en ayunas provoca un pico glucémico artificial inmediato y desregula el cortisol (la hormona del estrés). 
+        <!-- Sección 4: Estrategias Especiales -->
+        <section id="estrategias-avanzadas" class="grid md:grid-cols-2 gap-8 text-lg">
+            <!-- El Café -->
+            <div class="bg-white rounded-3xl p-8 shadow-md border border-slate-100 space-y-4">
+                <div class="w-14 h-14 rounded-2xl bg-amber-50 text-amber-800 flex items-center justify-center text-2xl font-bold">☕</div>
+                <h3 class="text-2xl font-bold text-slate-900">El Café: Sin Azúcar y Después de Comer</h3>
+                <p class="text-slate-700 leading-relaxed text-base md:text-lg">
+                    Tomar tinto con azúcar en ayunas altera las hormonas del estrés y dispara el azúcar de inmediato.
                 </p>
-                <div class="bg-slate-50 p-4 rounded-xl space-y-2 border border-slate-100 text-xs">
-                    <p><strong>El protocolo metabólico:</strong> Tómalo siempre <strong>después de haber desayunado</strong> (ventana óptima entre 9:00 AM y 11:00 AM). Esto protege tu mucosa gástrica y estabiliza el ritmo energético.</p>
-                    <p><strong>El truco de la Canela:</strong> Reemplaza el azúcar por canela en polvo. La canela contiene compuestos activos que mejoran de forma natural la sensibilidad de los receptores de insulina.</p>
+                <div class="bg-slate-50 p-5 rounded-xl space-y-3 border border-slate-200 text-sm md:text-base text-slate-700">
+                    <p><strong>La mejor hora:</strong> Tómatelo siempre <strong>después del desayuno</strong> (entre las 9:00 AM y 11:00 AM). Así proteges el estómago y mantienes la energía estable.</p>
+                    <p><strong>Usa Canela:</strong> En vez de endulzar con azúcar o panela, ponle una pizca de canela en polvo. La canela le da un sabor rico y ayuda a que las células absorban mejor el azúcar de la sangre.</p>
                 </div>
             </div>
 
-            <div class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 space-y-4">
-                <div class="w-12 h-12 rounded-2xl bg-orange-50 text-orange-700 flex items-center justify-center font-bold text-lg">🍳</div>
-                <h3 class="text-xl font-bold text-slate-900">Manteca de Cerdo Tradicional: ¿Es Buena?</h3>
-                <p class="text-sm text-slate-600 leading-relaxed">
-                    La ciencia moderna ha reivindicado la manteca de cerdo artesanal frente a los aceites vegetales ultraprocesados de semillas (girasol, maíz o soya), los cuales se oxidan e inflaman fácilmente al calentarse.
+            <!-- La Manteca de Cerdo -->
+            <div class="bg-white rounded-3xl p-8 shadow-md border border-slate-100 space-y-4">
+                <div class="w-14 h-14 rounded-2xl bg-orange-50 text-orange-800 flex items-center justify-center text-2xl font-bold">🍳</div>
+                <h3 class="text-2xl font-bold text-slate-900">Manteca de Cerdo: Tradición Saludable</h3>
+                <p class="text-slate-700 leading-relaxed text-base md:text-lg">
+                    La manteca de cerdo tradicional es mucho mejor para cocinar que los aceites de botella modernos (girasol o soya), que se queman y se dañan fácil.
                 </p>
-                <div class="bg-slate-50 p-4 rounded-xl space-y-2 border border-slate-100 text-xs">
-                    <p><strong>Cero impacto en glucosa:</strong> Al ser una grasa pura, tiene un índice glucémico de cero. No estimula la insulina en absoluto.</p>
-                    <p><strong>Perfil de ácidos grasos:</strong> Es rica en <strong>ácido oleico</strong> (la misma grasa saludable del aceite de oliva) y soporta temperaturas altísimas sin dañarse ni volverse tóxica, haciéndola excelente para cocinar los alimentos cotidianos con moderación.</p>
+                <div class="bg-slate-50 p-5 rounded-xl space-y-3 border border-slate-200 text-sm md:text-base text-slate-700">
+                    <p><strong>No altera el azúcar:</strong> Al ser una grasa pura de campo, su impacto en el azúcar de la sangre es CERO.</p>
+                    <p><strong>Muy Estable:</strong> Tiene propiedades parecidas al aceite de oliva y resiste el calor de la cocina sin volverse dañina para el corazón. Úsala con moderación para preparar tus comidas.</p>
                 </div>
             </div>
         </section>
 
-        <section id="plan-accion" class="bg-gradient-to-br from-teal-900 to-slate-950 text-white rounded-3xl p-8 md:p-12 shadow-md relative overflow-hidden">
+        <!-- Sección 5: Plan de Acción Práctico -->
+        <section id="plan-accion" class="bg-gradient-to-br from-teal-950 to-slate-950 text-white rounded-3xl p-8 md:p-12 shadow-lg relative overflow-hidden">
             <div class="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-emerald-500/10 via-transparent to-transparent"></div>
             <div class="relative z-10 space-y-8">
                 <div>
-                    <h2 class="text-2xl md:text-3xl font-bold tracking-tight">3 Reglas de Oro para el Día a Día</h2>
-                    <p class="text-teal-100/70 text-sm mt-2">Implementa estos hábitos sencillos para aplanar tu curva de glucosa drásticamente.</p>
+                    <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight">3 Reglas de Oro para Vivir Sin Sueño</h2>
+                    <p class="text-teal-200 text-lg mt-2">Consejos prácticos que cualquiera puede hacer en casa hoy mismo.</p>
                 </div>
 
-                <div class="grid md:grid-cols-3 gap-6">
+                <div class="grid md:grid-cols-3 gap-6 text-base md:text-lg">
+                    <!-- Regla 1 -->
                     <div class="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 space-y-3">
-                        <span class="text-2xl">🍽️</span>
-                        <h4 class="font-bold text-base text-emerald-300">1. Cambia el Orden en el Plato</h4>
-                        <p class="text-xs text-teal-100/80 leading-relaxed">
-                            No mezcles todo de golpe. Come en este orden estricto: <strong>Primero la fibra</strong> (ensaladas), <strong>segundo la proteína y grasas</strong> (carne, pescado, queso) y <strong>al final los carbohidratos</strong> (arroz, yuca o plátano).
+                        <span class="text-3xl">🍽️</span>
+                        <h4 class="font-bold text-xl text-emerald-300">1. Orden en el Plato</h4>
+                        <p class="text-teal-100/90 leading-relaxed text-sm md:text-base">
+                            No revuelvas todo. Cómete <strong>primero las verduras</strong> (la fibra), <strong>segundo la carne, pescado o huevo</strong>, y de <strong>último el arroz o la yuca</strong>. ¡Eso frena el impacto del azúcar!
                         </p>
                     </div>
+                    <!-- Regla 2 -->
                     <div class="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 space-y-3">
-                        <span class="text-2xl">🧥</span>
-                        <h4 class="font-bold text-base text-emerald-300">2. "Viste" los Carbohidratos</h4>
-                        <p class="text-xs text-teal-100/80 leading-relaxed">
-                            Nunca dejes los bastimentos "desnudos". Si vas a comer yuca, ñame o patacón, colócale siempre una buena cucharada de <strong>suero costeño</strong> o una tajada de queso. La grasa frena la velocidad de absorción del azúcar.
+                        <span class="text-3xl">🧥</span>
+                        <h4 class="font-bold text-xl text-emerald-300">2. "Viste" tus Harinas</h4>
+                        <p class="text-teal-100/90 leading-relaxed text-sm md:text-base">
+                            Nunca te comas una yuca o un patacón solos. Ponles encima una cucharada de <strong>suero costeño</strong>, un pedazo de queso o aguacate. La grasa buena evita que el azúcar suba de golpe.
                         </p>
                     </div>
+                    <!-- Regla 3 -->
                     <div class="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 space-y-3">
-                        <span class="text-2xl">🚶‍♂️</span>
-                        <h4 class="font-bold text-base text-emerald-300">3. Contracción Postprandial</h4>
-                        <p class="text-xs text-teal-100/80 leading-relaxed">
-                            No te vayas directo a la cama o la mecedora tras almorzar. Camina de 10 a 15 minutos en el patio o realiza una actividad ligera. Tus músculos absorberán la glucosa directamente de la sangre sin demandar insulina al páncreas.
+                        <span class="text-3xl">🚶‍♂️</span>
+                        <h4 class="font-bold text-xl text-emerald-300">3. Muévete un Poquito</h4>
+                        <p class="text-teal-100/90 leading-relaxed text-sm md:text-base">
+                            Al terminar de almorzar, no te vayas directo a la cama o a la mecedora. Camina 10 o 15 minutos (da vueltas por el patio o limpia la casa). Los músculos se toman el azúcar de la sangre sin cansar al cuerpo.
                         </p>
                     </div>
                 </div>
@@ -231,12 +252,10 @@
 
     </main>
 
-    <footer class="bg-slate-900 text-slate-400 py-12 mt-12 border-t border-slate-800 text-center text-xs space-y-2">
-        <p class="font-medium text-slate-300">Guía Práctica de Optimización Energética y Metabólica</p>
-        <p class="max-w-md mx-auto px-6 text-slate-500 leading-relaxed">
-            La información contenida en este sitio web tiene carácter estrictamente educativo e informativo. No reemplaza el diagnóstico o tratamiento médico especializado.
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12 mt-12 border-t border-slate-800 text-center text-sm space-y-3 px-6">
+        <p class="font-bold text-slate-300 text-base">Guía Educativa de Salud y Rendimiento Diario</p>
+        <p class="max-w-xl mx-auto text-slate-500 leading-relaxed text-xs">
+            Esta página web es de carácter netamente informativo. No reemplaza las recomendaciones, tratamientos o diagnósticos dados por un médico especialista.
         </p>
     </footer>
-
-</body>
-</html>
